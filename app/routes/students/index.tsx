@@ -67,10 +67,10 @@ export default function StudentsIndex() {
       <div className="flex flex-wrap items-center gap-4 mb-6">
         <button
           onClick={() => setIsModalOpen(true)}
-          className="inline-flex items-center gap-2 px-5 py-2.5 bg-gradient-to-r from-primary-400 to-primary-500 text-white rounded-full hover:from-primary-500 hover:to-primary-600 transition-all shadow-md hover:shadow-lg text-sm font-medium"
+          className="inline-flex items-center gap-2 px-5 py-2.5 bg-white border-2 border-turquoise rounded-full hover:bg-turquoise/5 transition-all shadow-soft hover:shadow-soft-lg text-sm font-medium"
         >
-          <PlusIcon className="w-4 h-4" />
-          新規作成
+          <PlusIcon className="w-4 h-4 text-turquoise" />
+          <span className="text-turquoise">新規作成</span>
         </button>
 
         {/* クラスフィルター */}
